@@ -19,14 +19,13 @@ body {
 }
 
 header {
-    background-color: black;
-
+    background: linear-gradient(180deg, #111, transparent);
     margin: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 
 header h1 {
@@ -46,16 +45,43 @@ header nav a {
 
 .container {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
-    margin-top: 3.5rem;
+    margin-top: 2.5rem;
     justify-content: center;
 }
 #jumbotron {
-    background-color: black;
-    width: 50%;
-    height: 23rem;
+    background-color: #222;
+    width: 75%;
+    height: 30rem;
     justify-content: center;
     border-radius: 2rem;
+}  
+
+.content {
+    width: 75%;
+    display: flex;
+    margin-top: 2rem;
+    color: whitesmoke;
+}
+.card {
+    background: linear-gradient(180deg,#222, black);
+    border-radius: 1rem;
+}
+p {
+    padding: 1rem;
+    opacity: 0.5;
+}
+h2 {
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+#about-me h2 {
+background: -webkit-linear-gradient(45deg, #9d8bb9, #8a8fb8);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 
     

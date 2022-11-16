@@ -2,26 +2,77 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
         <title>Peter's Portfolio</title>
         <link rel='stylesheet' href='./resources/css/style.css' type='text/css'>
         <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/058101b0d3.js" crossorigin="anonymous"></script>
     </head>
     <body>
+
+        <!--Header and nav bar-->
+
         <header>
             <h1>Peter Nicholas</h1>
             <nav>
-                <a href="#">About Me</a>
-                <a href="#">Projects</a>
-                <a href="#">Skills</a>
+                <a href="#about-me">About Me</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
                 <a href="#">Contact Me</a>
             </nav>
         </header>
-        <section class="container jumbotron">
-            <div id="jumbotron">
+
+        <!--Content container-->
+
+        <div class="container">
+
+            <!--Image scroller-->
+            <section id="jumbotron">
                 <div class="img"></div>
                 <div class="buttons"></div>
-            </div>
-        </section>
+            </section>
+
+            <section class="content">
+
+                <!--About Me Card-->
+                <div class="card" id="about-me">
+                    <h2 class="title">About Me</h2>
+                    <p>
+                        Hi! My name is Peter Nicholas and I graduated from CHCA highschool in the spring of 2021.
+                        I began learning how to code in my softmore year of highschool after joining the FIRST robotics team.
+                        There I learned the basics of java while on the controls team to help manipulate the robot.
+                    </p>
+                    <p>
+                        As I grew to enjoy programming, I begin to seek out aditional learning material.
+                        Junior year I decided to take AP Computer Science, which improved my understanding of algorithms and data manipulation.
+                        By senior year, I began teaching myself C#, and begin messing around with my friend on Unreal Engine 4 in our school's computer lab.  
+                        While our gaming project never got very far, playing around with Unreal taught me alot about problem solving, and inspired me to keep learning.
+                    </p>
+                    <p>
+                        During my first semester of studying Astrophysics at the University of Cincinnati, I got into an acedemic slump and decided to take the
+                        spring semester off to recooperate.  During this time, I spent the majority of my days either working a part time job or learning more about programming.
+                        With the help of some youtube tutorials, i began making a 2D Java game from scratch.  I also enrolled in multiple classes through Codecademy, learning more about Java and C#.
+                        
+                    </p>
+                </div>
+    
+                <!--Projects Card-->
+                <div class="card" id="projects">
+                    <h2 class="title">Projects</h2>
+                    <p>PLACEHOLDER</p>
+                </div>
+    
+                <!--Skills Card-->
+                <div class="card" id="skills">
+                    <h2 class="title">Skills</h2>
+                    <p>PLACEHOLDER</p>
+                </div>
+            </section>
+        </div>
+
+        
+
+        
         
         
         <h1>Hello World</h1>
