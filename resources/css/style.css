@@ -44,4 +44,18 @@ header nav a {
     color: whitesmoke;
 }
 
+.container {
+    display: flex;
+    width: 100%;
+    margin-top: 3.5rem;
+    justify-content: center;
+}
+#jumbotron {
+    background-color: black;
+    width: 50%;
+    height: 23rem;
+    justify-content: center;
+    border-radius: 2rem;
+}
+
     
