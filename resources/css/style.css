@@ -68,6 +68,7 @@ header nav a {
 .card {
     background: linear-gradient(180deg,#222, black);
     border-radius: 1rem;
+    box-shadow: 0.5rem 0.5rem 0.4rem rgb(10 10 10 / 60%);
 }
 p {
     padding: 1rem;
