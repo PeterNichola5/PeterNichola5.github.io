@@ -98,7 +98,7 @@ h2 {
 }
 
 #projects h2 {
-    background: -webkit-linear-gradient(45deg, #9d8bb9, #8a8fb8);
+    background: -webkit-linear-gradient(45deg, #8b8fb8, #4a9db3);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -143,6 +143,10 @@ summary {
     padding-left: 0.5rem;
 }
 
+.fa-chevron-left, .fa-chevron-right {
+    color: whitesmoke;
+    opacity: 0.5;
+}
 
 
 
