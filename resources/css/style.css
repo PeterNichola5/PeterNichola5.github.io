@@ -95,8 +95,6 @@ h2 {
     margin-top: 2rem;
     height: 20rem;
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 #projects h2 {
@@ -109,10 +107,12 @@ h2 {
 }
 
 .project-holder {
+    display: grid;
     padding-left: 1rem;
     padding-top: 1rem;
     width: 100%;
-    height: 82%;
+    height: 81%;
+    grid-template-rows: repeat(3, 1fr);
 }
 
 details > summary {
@@ -136,7 +136,7 @@ summary a {
 
 details {
     width: 100%;
-    margin: 1rem;
+    margin-left: 1rem;
 }
 
 summary {
