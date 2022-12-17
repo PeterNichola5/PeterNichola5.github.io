@@ -1,0 +1,29 @@
+body {
+    font-family: 'Comfortaa';
+    font-size: 16px;
+    background: linear-gradient(45deg, #ae87ba 0%, #2da3b1 100%);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    background: linear-gradient(180deg, #111, transparent);
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+header nav {
+    padding-right: 0.5rem;
+}
+
+header nav a {
+    padding: 0 0.2rem 0 0.2rem;
+    font-size: 20px;
+    color: whitesmoke;
+}

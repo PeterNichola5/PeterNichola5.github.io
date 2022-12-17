@@ -28,7 +28,7 @@ const updateTitles = () => {
                           ];
         title.style.background = `-webkit-linear-gradient( rgb(${colorVals[0][0]}, ${colorVals[0][1]}, ${colorVals[0][2]}), 
                                   rgb(${colorVals[1][0]}, ${colorVals[1][1]}, ${colorVals[1][2]}))`;
-        //title.style.webkitBackgroundClip = 'text';
+        title.style.webkitBackgroundClip = 'text';
         title.style.webkitTextFillColor = 'transparent';
         console.log(colorVals);
 
