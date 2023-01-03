@@ -1,5 +1,5 @@
 body {
-    font-family: 'Comfortaa';
+    font-family: 'Comfortaa', Serif;
     font-size: 16px;
     background: linear-gradient(45deg, #ae87ba 0%, #2da3b1 100%);
     height: 100%;
@@ -29,5 +29,5 @@ header nav a {
 }
 
 #links a {
-    color: #183153;
+    color: #222;
 }
